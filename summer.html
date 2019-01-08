@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旅遊景點-避暑勝地</title>
+<style type="text/css">
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	-webkit-box-shadow: 4px 4px 4px #949494;
+	box-shadow: 4px 4px 4px #949494;
+}
+#header {
+	height: 300px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(image1.jpg);
+}
+#footer {
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	clear: both;
+	color: #ffffff;
+	font-size: 10pt;
+	background-color: #4d4d4d;
+}
+.img {
+	float: right;
+	margin-bottom: 5px;
+	position: static;
+	left: 1126px;
+	clear: none;
+	top: 2165px;
+}
+#content {
+	width: 620px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	float: left;
+	background-image: url(title%20bg.jpg);
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	border-radius: 0px;
+}
+#sidebar {
+	width: 250px;
+	padding-right: 20px;
+	float: right;
+	border-left: 2px solid #428CFF;
+	border-right: 1px solid #428CFF;
+	border-bottom: 1px solid #428CFF;
+	border-top: 1px solid #428CFF;
+	padding-left: 20px;
+	background-color: #f6fdad;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+}
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(title%20bg.jpg);
+}
+.section {
+	border: 2px solid #FF1818;
+	background-color: #FFD6F3;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.p {
+	background-color: #C8C8C8;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+#div1 {
+	position: absolute;
+	left: 43%;
+	top: 10%;
+	width: 214px;
+	height: 191px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+.section2 {
+	height: 268px;
+	width: 195px;
+	border: 3px solid #6900FF;
+	background-color: #000000;
+	-webkit-box-shadow: 0px 0px 5px;
+	box-shadow: 0px 0px 5px;
+	border-radius: 20px;
+	padding-bottom: 30px;
+	opacity: 0.8;
+	visibility: hidden;
+}
+#div2 {
+	position: absolute;
+	left: 43%;
+	top: 5px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+#diva {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	top: 41px;
+	border-radius: 30px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 0px;
+	opacity: 0.3;
+}
+#divb {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	border-radius: 30px;
+	top: 129px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 4px;
+	opacity: 0.3;
+}
+#divd {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 184px;
+	top: 33px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#dive {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 189px;
+	top: 125px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#divf {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 188px;
+	top: 214px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 2px;
+	opacity: 0.3;
+}
+.p2 {
+	background-color: #313131;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+</style>
+<link href="webfonts/sugar/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="webfonts/chalk2/stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #f875ae;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #f875ae;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+<div id="container"> 
+ <div id="header" style="font-family: chalk2; font-size: 100px; color: #FF0000;">
+	  <a href="index.html">大馬客栈</a>
+	<div class="section2" id="div1">
+      	<div id="diva" onClick="MM_goToURL('parent','summer.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('diva','','hide')"></div>
+        <p onMouseOver="MM_showHideLayers('diva','','show')"><img src="section2.gif" alt="" width="40" height="40"/>避暑勝地</p>
+        <div id="divb" onClick="MM_goToURL('parent','historical.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divb','','hide')"></div>
+	    <p onMouseOver="MM_showHideLayers('divb','','show')" ><img src="section2.gif" width="40" height="40" alt=""/>古香文城</p>
+ 	</div>
+		<div class="section2" id="div2">
+			<div id="divd" onClick="MM_goToURL('parent','chinese.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('divd','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divd','','show')"><img src="section2.gif" alt="" width="40" height="40"/>華人</p>
+			<div id="dive" onClick="MM_goToURL('parent','malay.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('divd','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('dive','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('dive','','show')"><img src="section2.gif" alt="" width="40" height="40"/>馬來人</p>
+			<div id="divf" onClick="MM_goToURL('parent','indian.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divd','','hide')" onMouseOut="MM_showHideLayers('divf','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divf','','show')"><img src="section2.gif" alt="" width="40" height="40"/>印度人</p>
+ 	 	</div>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_showHideLayers('div1','','hide')" onMouseOver="MM_showHideLayers('div1','','show');MM_showHideLayers('div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>著名景點</span> <span class="section" onClick="MM_showHideLayers('div2','','hide')" onMouseOver="MM_showHideLayers('div2','','show');MM_showHideLayers('div1','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統美食</span>
+	  		</p>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_goToURL('parent','festival.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統節日</span> <span class="section" onClick="MM_goToURL('parent','warning.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>注意事項</span>
+	  		</p>
+  </div>
+  <div id="content">
+   	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9;">馬來西亞位於地球赤道上，因此全年365天都是以夏天爲主，並不像臺灣這裏有四季之分。馬來西亞屬於熱帶氣候，全年平均溫度為21度到32度 。但是，馬來西亞擁有著許多山脈，也有著許多出名的高山。這些高山中有因爲高度而出名的山，如沙巴的京那巴魯山，也有幾座被稱爲馬來西亞必去的避暑勝地也在高山上，尤其是在馬來西亞如此炎熱的國家，享受著高山上的冷風是一件多麽幸福的事。除了高山上的避暑勝地以外，也有著其他各式各樣的避暑勝地。現在就讓我向你介紹這些勝地。</p>
+   	<p><img src="避暑.jpg" width="613" height="409" alt=""/></p>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		1. 金馬倫高原（cameron highland)
+	</p>
+    	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9; font-weight: bold;">
+			金馬倫高原，位於馬來半島主幹山脈-蒂迪旺莎山脈上，海拔約1500米，為馬來西亞最大的高原度假勝地。此地是馬來西亞少數屬於熱帶高地氣候的地方之一，整年溫度介於15°C到25°C之間。這裏的涼爽氣候，再加上良好的自然環境，讓金馬倫高原變成了馬來西亞出名的避暑勝地之一。除了這些旅游景點，金馬倫高原也是馬來西亞最大的溫帶蔬菜與花朵種植區。這裏出產的蔬果除了供應本地市場以外，也有出口到新加坡，臺灣，香港等地區。
+		</p>
+			<p>
+				<a href="cameron 1.jpg" target="_blank"><img src="cameron 1.jpg" alt="" width="200" height="134" title="金馬倫高原"/></a><a href="cameron 2.jpg" target="_blank"><img src="cameron 2.jpg" alt="" width="200" height="133" title="金馬倫的草莓園"/></a><a href="camaeron 3.jpg" target="_blank"><img src="camaeron 3.jpg" alt="" width="200" height="131" title="薰衣草花園"/></a>
+	  		</p>
+    <p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		2. 福隆港（Fraser's Hill）
+	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9; font-weight: bold;">
+			福隆港猶如一顆明珠，靜臥在馬來西亞彭亨州的雨林之中。這個位於海拔1524公尺高的高原被稱為馬來西亞的自然天堂。游客可以在這裏進行自然探索類的活動，如越野，觀鳥，騎馬等活動。被譽爲馬來西亞最佳觀鳥場所的這裏，每年都會舉辦“福隆港國際觀鳥大賽”，參賽者可以對所觀察的雀鳥進行記錄和攝影，甚至為它們取名，這項活動每年都吸引了不少游客前來參加。這裏也有個蘇格蘭風情的小鎮，鎮上充滿著各式各樣的花崗岩建築，市中心還有一個仿照英國倫敦大笨鐘的鐘樓，和背後的福隆港形成一個有趣的畫面，是福隆港的標志，也是游客們的熱門打卡景點。 
+		</p>
+	<p>
+		<a href="fraser1.JPG" target="_blank"><img src="fraser1.JPG" width="250" height="333" alt=""/></a><a href="fraser2.jpeg" target="_blank"><img src="fraser2.jpeg" width="350" height="203" alt=""/></a>
+	</p>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		3. 擔布南（Tambunan）
+	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9; font-weight: bold;">
+		這個位於沙巴内部的寶石，是一個多數馬來西亞人都不知道的好地方。這裏是一個被稻田和層層曡曡的山丘所圍繞的美麗城鎮，以出產LIHING米酒聞名。被稱爲東方瑞士的這裏也被茂密的竹林環繞，且根據這裏的通令規定，凡砍下一棵竹樹，就必須種下20棵竹苗來做交換，這樣的規定讓擔布南一直那麽地翠綠。另外，這裏也有其他出名的旅游景點，如RAFFLESIA森林保護區和Mahua瀑布。RAFFLESIA被稱爲大王花，是世界上最大的一種花。據説，這種花的起源要追溯到一億年前的白堊紀時代，即恐龍時代末期。
+		</p>
+			<p>
+				<a href="tambunan1.jpg" target="_blank"><img src="tambunan1.jpg" width="200" height="115" alt=""/></a><a href="tambunan2.jpg" target="_blank"><img src="tambunan2.jpg" alt="" width="200" height="149" title="擔佈南的山景"/></a><a href="tambunan3.jpg" target="_blank"><img src="tambunan3.jpg" alt="" width="200" height="150" title="Rafflesia大王花"/></a>
+	  		</p>
+  </div>
+  
+  <div id="sidebar">
+    <p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">國外媒體為金馬倫錄製的影片↓</p>
+   	<video width="250" controls>
+      		<source src="summer1.mp4" type="video/mp4">
+   	</video>
+	<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞旅游局的官方福隆港宣傳片↓</p>
+   	<video width="250" controls >
+      		<source src="summer3.mp4" type="video/mp4">
+   	</video>
+    <p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">擔佈南官方宣傳片↓</p>
+    	<video width="250" controls >
+      		<source src="summer4.mp4" type="video/mp4">
+    	</video>
+	<p>&nbsp;</p>
+  </div>
+  
+  <div id="footer">我的聯絡方式：<a href="mailto:s18113272@stu.edu.tw">s18113272@stu.eddu.tw</a><a href="#top"><img src="top.png" alt="" width="30" height="29" class="img"/></a></div>
+</div>
+</body>
+</html>

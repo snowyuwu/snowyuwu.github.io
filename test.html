@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>大馬客棧</title>
+<style type="text/css">
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	-webkit-box-shadow: 4px 4px 4px #949494;
+	box-shadow: 4px 4px 4px #949494;
+}
+#header {
+	height: 300px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(image1.jpg);
+}
+#footer {
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	clear: both;
+	color: #ffffff;
+	font-size: 10pt;
+	background-color: #4d4d4d;
+}
+.img {
+	clear: none;
+	float: right;
+	margin-bottom: 5px;
+}
+#content {
+	width: 620px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	float: left;
+	background-image: url(title%20bg.jpg);
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	border-radius: 0px;
+}
+#sidebar {
+	width: 250px;
+	padding-right: 20px;
+	float: right;
+	border-left: 2px solid #428CFF;
+	border-right: 1px solid #428CFF;
+	border-bottom: 1px solid #428CFF;
+	border-top: 1px solid #428CFF;
+	padding-left: 20px;
+	background-color: #f6fdad;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+}
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(title%20bg.jpg);
+}
+.section {
+	border: 2px solid #FF1818;
+	background-color: #FFD6F3;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.p {
+	background-color: #C8C8C8;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+#div1 {
+	position: absolute;
+	left: 48%;
+	top: 21%;
+	width: 214px;
+	height: 277px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+.section2 {
+	height: 268px;
+	width: 195px;
+	border: 3px solid #6900FF;
+	background-color: #050005;
+	-webkit-box-shadow: 0px 0px 5px;
+	box-shadow: 0px 0px 5px;
+	border-radius: 20px;
+	padding-bottom: 30px;
+	opacity: 0.8;
+	visibility: hidden;
+}
+#div2 {
+	position: absolute;
+	left: 57%;
+	top: 21%;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+#diva {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	top: 41px;
+	border-radius: 30px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 0px;
+	opacity: 0.3;
+}
+#divb {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	border-radius: 30px;
+	top: 129px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 4px;
+	opacity: 0.3;
+}
+#divc {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	border-radius: 30px;
+	top: 214px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 2px;
+	opacity: 0.3;
+}
+#divd {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 184px;
+	top: 33px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#dive {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 189px;
+	top: 125px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#divf {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 188px;
+	top: 214px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 2px;
+	opacity: 0.3;
+}
+</style>
+<link href="webfonts/sugar/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="webfonts/chalk2/stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #f875ae;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #f875ae;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+<div id="container"> 
+  		<div id="header" style="font-family: chalk2; font-size: 100px; color: #FF0000;">
+			  <a href="index.html">大馬客栈</a>
+				
+				<div class="section2" id="div2">
+	  			  	<div id="divd" onClick="MM_goToURL('parent','chinese.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divd','','hide')"></div>
+       			  	<p onMouseOver="MM_showHideLayers('divd','','show')"><img src="section2.gif" alt="" width="40" height="40"/>華人</p>
+		  			<div id="dive" onClick="MM_goToURL('parent','malay.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('dive','','hide')"></div>
+       			  	<p onMouseOver="MM_showHideLayers('dive','','show')"><img src="section2.gif" alt="" width="40" height="40"/>馬來人</p>
+		  			<div id="divf" onClick="MM_goToURL('parent','indian.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divf','','hide')"></div>
+       			  	<p onMouseOver="MM_showHideLayers('divf','','show')"><img src="section2.gif" alt="" width="40" height="40"/>印度人</p>
+ 		  		</div>
+		  	<p style="font-family: sugar; font-size: 40px; text-align: right;"><span class="section" onClick="MM_showHideLayers('div1','','hide')" onMouseOver="MM_showHideLayers('div1','','show');MM_showHideLayers('div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>著名景點</span> <span class="section" onClick="MM_showHideLayers('div2','','hide')" onMouseOver="MM_showHideLayers('div2','','show');MM_showHideLayers('div1','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統美食</span> <span class="section" onClick="MM_goToURL('parent','festival.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統節日</span></p>
+			
+			<p>
+			<div class="section2" id="div1" onMouseOver="MM_showHideLayers('diva','','show')">
+      				<div id="diva" onClick="MM_goToURL('parent','summer.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('diva','','hide')"></div>
+        			<img src="section2.gif" width="40" height="40" alt=""/>避暑勝地
+          			<div id="divb" onClick="MM_goToURL('parent','historical.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divb','','hide')"></div>
+	      			<p onMouseOver="MM_showHideLayers('divb','','show')" ><img src="section2.gif" width="40" height="40" alt=""/>古香文城</p>
+	      			<div id="divc" onClick="MM_goToURL('parent','other.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divc','','hide')"></div>
+	      			<p onMouseOver="MM_showHideLayers('divc','','show')" ><img src="section2.gif" width="40" height="40" alt=""/>其他</p>
+   		  		</div>
+			</p>
+			
+		  <p style="font-family: sugar; font-size: 40px; text-align: right;"><span class="section" onClick="MM_goToURL('parent','building.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>著名建築物</span> <span class="section" onClick="MM_goToURL('parent','warning.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>注意事項</span></p>
+  </div>
+  				<div id="content">
+   					<p class="p" style="font-family: '微軟正黑體'; font-size: 20px; color: #212CF9;">馬來西亞，是世界上極富有文化和歷史價值的國家，也被譽爲一個非瀏覽不可的名勝地。天賦的宏偉壯麗，優美動人和七彩繽紛的特色，使馬來西亞被譽爲東南亞的一顆寶石。</p>
+   				  <p><img src="image3.jpg" width="613" height="188" alt=""/></p>
+	  
+    				<p class="p" style="font-family: '微軟正黑體'; font-size: 20px; color: #212CF9;">自古以來，這裏的熱帶雨林之氣息，保持著它的壯觀和迷人的特質；活躍且繁忙的都市，是走在時代前端的象徵。環繞在都市和市鎮四周的，盡是別具風俗的鄉村，而鄉村那樸素和純真更為馬來西亞披上一層讓人向往的色彩。在這神秘面紗的背後，就讓我帶你一一走過馬來西亞最讓人向往，流連忘返的景點，一一品嘗過馬來西亞最讓人垂涎三尺的美食吧。</p>
+    				<p><img src="image2.jpg" width="613" height="314" alt=""/></p>
+  </div>
+  				<div id="sidebar">
+    				<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞2014年旅游局官方宣傳歌↓</p>
+    				<video width="250" controls>
+      					<source src="video2.mp4" type="video/mp4">
+    				</video>
+					<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞2018年國慶日官方歌曲↓</p>
+    				<video width="250" controls >
+    				  <source src="video4.mp4" type="video/mp4">
+    				</video>
+					<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞歌手黃明志在2017年為馬來西亞60周年國慶日寫的歌↓</p>
+    				<video width="250" controls >
+   					   <source src="video3.mp4" type="video/mp4">
+    				</video>
+  					<p>&nbsp;</p>
+  				</div>
+  <div id="footer">我的聯絡方式：<a href="mailto:s18113272@stu.edu.tw">s18113272@stu.eddu.tw</a><a href="#top"><img src="top.png" alt="" width="30" height="29" class="img"/></a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>傳統節日</title>
+<style type="text/css">
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	-webkit-box-shadow: 4px 4px 4px #949494;
+	box-shadow: 4px 4px 4px #949494;
+}
+#header {
+	height: 300px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(image1.jpg);
+}
+#footer {
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	clear: both;
+	color: #ffffff;
+	font-size: 10pt;
+	background-color: #4d4d4d;
+}
+.img {
+	float: right;
+	margin-bottom: 5px;
+	position: static;
+	left: 1126px;
+	clear: none;
+	top: 2165px;
+}
+#content {
+	width: 620px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	float: left;
+	background-image: url(title%20bg.jpg);
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	border-radius: 0px;
+}
+#sidebar {
+	width: 250px;
+	padding-right: 20px;
+	float: right;
+	border-left: 2px solid #428CFF;
+	border-right: 1px solid #428CFF;
+	border-bottom: 1px solid #428CFF;
+	border-top: 1px solid #428CFF;
+	padding-left: 20px;
+	background-color: #f6fdad;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+}
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(title%20bg.jpg);
+}
+.section {
+	border: 2px solid #FF1818;
+	background-color: #FFD6F3;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.p {
+	background-color: #C8C8C8;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+#div1 {
+	position: absolute;
+	left: 43%;
+	top: 10%;
+	width: 214px;
+	height: 191px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+.section2 {
+	height: 268px;
+	width: 195px;
+	border: 3px solid #6900FF;
+	background-color: #000000;
+	-webkit-box-shadow: 0px 0px 5px;
+	box-shadow: 0px 0px 5px;
+	border-radius: 20px;
+	padding-bottom: 30px;
+	opacity: 0.8;
+	visibility: hidden;
+}
+#div2 {
+	position: absolute;
+	left: 43%;
+	top: 5px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+#diva {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	top: 41px;
+	border-radius: 30px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 0px;
+	opacity: 0.3;
+}
+#divb {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	border-radius: 30px;
+	top: 129px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 4px;
+	opacity: 0.3;
+}
+#divd {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 184px;
+	top: 33px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#dive {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 189px;
+	top: 125px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#divf {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 188px;
+	top: 214px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 2px;
+	opacity: 0.3;
+}
+.p2 {
+	background-color: #313131;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+</style>
+<link href="webfonts/sugar/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="webfonts/chalk2/stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #f875ae;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #f875ae;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+<div id="container"> 
+  <div id="header" style="font-family: chalk2; font-size: 100px; color: #FF0000;">
+	  <a href="index.html">大馬客栈</a>
+	<div class="section2" id="div1">
+      	<div id="diva" onClick="MM_goToURL('parent','summer.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('diva','','hide')"></div>
+        <p onMouseOver="MM_showHideLayers('diva','','show')"><img src="section2.gif" alt="" width="40" height="40"/>避暑勝地</p>
+        <div id="divb" onClick="MM_goToURL('parent','historical.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divb','','hide')"></div>
+	    <p onMouseOver="MM_showHideLayers('divb','','show')" ><img src="section2.gif" width="40" height="40" alt=""/>古香文城</p>
+ 	</div>
+		<div class="section2" id="div2">
+			<div id="divd" onClick="MM_goToURL('parent','chinese.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('divd','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divd','','show')"><img src="section2.gif" alt="" width="40" height="40"/>華人</p>
+			<div id="dive" onClick="MM_goToURL('parent','malay.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('divd','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('dive','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('dive','','show')"><img src="section2.gif" alt="" width="40" height="40"/>馬來人</p>
+			<div id="divf" onClick="MM_goToURL('parent','indian.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divd','','hide')" onMouseOut="MM_showHideLayers('divf','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divf','','show')"><img src="section2.gif" alt="" width="40" height="40"/>印度人</p>
+ 	 	</div>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_showHideLayers('div1','','hide')" onMouseOver="MM_showHideLayers('div1','','show');MM_showHideLayers('div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>著名景點</span> <span class="section" onClick="MM_showHideLayers('div2','','hide')" onMouseOver="MM_showHideLayers('div2','','show');MM_showHideLayers('div1','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統美食</span>
+	  		</p>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_goToURL('parent','festival.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統節日</span> <span class="section" onClick="MM_goToURL('parent','warning.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>注意事項</span>
+	  		</p>
+  </div>
+  <div id="content">
+   	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9;">
+   		馬來西亞有著許許多多的民族，而每個民族都有自己的傳統節日。在節日當天，這些民族都會普天同慶，共同慶祝屬於自己民族的節日。除了這些民族的獨有節日以外，一些節日如1月1日的元旦新年在馬來西亞也有，這些我就不一一介紹了。
+   	</p>
+   		<p><a href="節日.jpg"><img src="節日.jpg" width="610" height="347" alt=""/></a></p>
+   	<hr/>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		農曆新年
+	</p>
+   		<p class="p2" style="font-family: '微软雅黑'; font-size: 20px; color: #72f8fd; font-weight: normal;">
+   			日期：2月（農曆正月初一）
+	 	</p>
+    	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			農曆新年是華人在一年裏最大的節日。多數國家的農曆新年會慶祝到正月十五，也就是元宵節。在農曆新年時，家長往往會派紅包給小孩們，象徵著喜慶，也會幫孩子們買新衣服，象徵著新的一年，新的自己。之後父母就會帶著小孩回到他們的家鄉，和其他親戚碰碰面，互相訴説著這一整年下來大家都發生了什麽事。接著就是最重要的團圓飯，散佈在世界各地的親戚總會在農曆新年聚在一起，一起享用著一年一次的團圓飯，吃著飯，聊著天，一同歡笑，永遠都是最美的風景。
+		</p>
+			<p>
+				<a href="cny1.jpg" target="_blank"><img src="cny1.jpg" alt="" width="200" height="134"/></a><a href="cny2.jpg" target="_blank"><img src="cny2.jpg" alt="" width="200" height="150"/></a><a href="cny3.jpg" target="_blank"><img src="cny3.jpg" alt="" width="200" height="134"/></a>
+			</p>
+	<hr/>
+    <p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		開齋節（Hari Raya）
+	</p>
+		<p class="p2" style="font-family: '微软雅黑'; font-size: 20px; color: #72f8fd; font-weight: normal;">
+   			日期：6月（伊斯蘭曆閃瓦魯月)
+	 	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			開齋節相當於馬來人的農曆新年。伊斯蘭曆是伊斯蘭國家通用的曆法，而閃瓦魯月代表著十月。在開齋節的前一個月，馬來人會進行一個月的齋戒月，即每一天的日出開始不能進行任何生理活動如飲食，直到日落，其中老人，病人，產婦等可以受減免。和農曆新年一年，馬來人也會在開齋節時派壓歲錢給小孩們，但他們用的不是紅包，而是青包。在這一天，馬來人會到清真寺聼長吟誦古蘭經，再集體朝著麥加的方向依禮敬拜。他們也會在這一天去拜訪親友，互相問候。
+		</p>
+			<p>
+				<a href="raya1.jpg" target="_blank"><img src="raya1.jpg" width="300" height="200" alt=""/></a><a href="raya3.jpg" target="_blank"><img src="raya3.jpg" width="275" height="183" alt=""/></a>
+			</p>
+	<hr/>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		屠妖節（Deepavali）
+	</p>
+		<p class="p2" style="font-family: '微软雅黑'; font-size: 20px; color: #72f8fd; font-weight: normal;">
+   			日期：11月（印度曆八月）
+	 	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			印度曆為印度政府為了統一在印度五花八門的曆法，而制定的印度官方統一曆法，為太陽曆的一種。屠妖節是印度人的三大節日之一。耆那教，印度教和錫克教慶祝“以光明驅走黑暗，以善良戰勝邪惡”的節日。後來，這個節日也被看作“内心之光”的節日。他們會在節日當天天亮之前進行膏油浴儀式，以示洗净身心。之後，他們會在家裏點油燈，進行禱告。他們也會在新衣上塗抹一點薑黃粉。
+		</p>
+	<p>
+				<a href="depav1.jpg" target="_blank"><img src="depav1.jpg" width="300" height="197" alt=""/></a><a href="depav2.jpg" target="_blank"><img src="depav2.jpg" alt="" width="300" height="195"/></a>
+			</p>
+	<hr/>	
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		大寶森節
+	</p>
+	<p class="p2" style="font-family: '微软雅黑'; font-size: 20px; color: #72f8fd; font-weight: normal;">
+   			日期：1月（淡米爾曆的“泰月”滿月）
+	 	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+		  淡米爾曆的泰月指的是該日曆的第十個月。大寶森節是其中一個印度教的節日，由淡米爾人慶祝。大寶森節是用來慶祝濕婆和雪山女神的幼子暨戰神穆魯乾的生日。大寶森節的慶祝方式共兩天，人們會以黃色，橘色的花為穆魯乾獻祭。其中一個獻祭方法稱爲枷行。枷行在這個慶典裏被當作“還願”的方式，例如一個人向神明祈求願望實現以後，可能就以矛枷行作爲抵償。這些人會將一百零八根鐵條刺穿前胸，後背，臉頰，舌頭等，之後雙肩負上枷行，加上一些裝飾品等幾十公斤的東西，然後走上穆魯乾廟獻祭。過程中也有人會走過火堆，鞭打自己等行爲。馬來西亞還有一個出名的海外據點叫黑風洞，位於吉隆玻的北部十三公里以外。節日當天，信徒們會準備一個有穆魯乾神像的戰車，從吉隆玻步行而來，并且肩負著枷行爬上272層階梯到達山頂的穆魯乾廟。
+		</p>
+			<p>
+				<a href="thaipu1.JPG" target="_blank"><img src="thaipu1.JPG" width="200" height="133" alt=""/></a><a href="thaipu2.jpg"><img src="thaipu2.jpg" width="200" height="132" alt=""/></a><a href="thaipu3.jpg" target="_blank"><img src="thaipu3.jpg" alt="" width="200" height="130"/></a>
+			</p>
+  </div>
+  
+  <div id="sidebar">
+	<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">2018年華人電臺MY FM製作的新年歌曲↓</p>
+   	<video width="250" controls >
+      		<source src="festival2.mp4" type="video/mp4">
+   	</video>
+	<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來亞航空公司在2018製作的開齋節影片↓</p>
+   	<video width="250" controls >
+      		<source src="festival3.mp4" type="video/mp4">
+   	</video>
+    <p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞國家石油公司在2018製作的屠妖節短片↓</p>
+    	<video width="250" controls >
+      		<source src="festival4.mp4" type="video/mp4">
+    	</video>
+	<p>&nbsp;</p>
+  </div>
+  
+  <div id="footer">我的聯絡方式：<a href="mailto:s18113272@stu.edu.tw">s18113272@stu.eddu.tw</a><a href="#top"><img src="top.png" alt="" width="30" height="29" class="img"/></a></div>
+</div>
+</body>
+</html>

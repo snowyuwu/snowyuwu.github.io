@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>傳統美食-華人</title>
+<style type="text/css">
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	-webkit-box-shadow: 4px 4px 4px #949494;
+	box-shadow: 4px 4px 4px #949494;
+}
+#header {
+	height: 300px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(image1.jpg);
+}
+#footer {
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	clear: both;
+	color: #ffffff;
+	font-size: 10pt;
+	background-color: #4d4d4d;
+}
+.img {
+	float: right;
+	margin-bottom: 5px;
+	position: static;
+	left: 1126px;
+	clear: none;
+	top: 2165px;
+}
+#content {
+	width: 620px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	float: left;
+	background-image: url(title%20bg.jpg);
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	border-radius: 0px;
+}
+#sidebar {
+	width: 250px;
+	padding-right: 20px;
+	float: right;
+	border-left: 2px solid #428CFF;
+	border-right: 1px solid #428CFF;
+	border-bottom: 1px solid #428CFF;
+	border-top: 1px solid #428CFF;
+	padding-left: 20px;
+	background-color: #f6fdad;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+}
+body {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(title%20bg.jpg);
+}
+.section {
+	border: 2px solid #FF1818;
+	background-color: #FFD6F3;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+.p {
+	background-color: #C8C8C8;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+#div1 {
+	position: absolute;
+	left: 43%;
+	top: 10%;
+	width: 214px;
+	height: 191px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+.section2 {
+	height: 268px;
+	width: 195px;
+	border: 3px solid #6900FF;
+	background-color: #000000;
+	-webkit-box-shadow: 0px 0px 5px;
+	box-shadow: 0px 0px 5px;
+	border-radius: 20px;
+	padding-bottom: 30px;
+	opacity: 0.8;
+	visibility: hidden;
+}
+#div2 {
+	position: absolute;
+	left: 43%;
+	top: 5px;
+	font-size: 40px;
+	font-family: sugar;
+	visibility: hidden;
+}
+#diva {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	top: 41px;
+	border-radius: 30px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 0px;
+	opacity: 0.3;
+}
+#divb {
+	position: absolute;
+	height: 57px;
+	width: 214px;
+	border-radius: 30px;
+	top: 129px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 4px;
+	opacity: 0.3;
+}
+#divd {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 184px;
+	top: 33px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#dive {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 189px;
+	top: 125px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 3px;
+	opacity: 0.3;
+}
+#divf {
+	position: absolute;
+	height: 57px;
+	border-radius: 30px;
+	width: 188px;
+	top: 214px;
+	background-color: #D7D7D7;
+	visibility: hidden;
+	left: 2px;
+	opacity: 0.3;
+}
+.p2 {
+	background-color: #313131;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	margin-right: 10px;
+}
+</style>
+<link href="webfonts/sugar/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="webfonts/chalk2/stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #f875ae;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #f875ae;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+<div id="container"> 
+  <div id="header" style="font-family: chalk2; font-size: 100px; color: #FF0000;">
+	  <a href="index.html">大馬客栈</a>
+	<div class="section2" id="div1">
+      	<div id="diva" onClick="MM_goToURL('parent','summer.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('diva','','hide')"></div>
+        <p onMouseOver="MM_showHideLayers('diva','','show')"><img src="section2.gif" alt="" width="40" height="40"/>避暑勝地</p>
+        <div id="divb" onClick="MM_goToURL('parent','historical.html');return document.MM_returnValue" onMouseOut="MM_showHideLayers('divb','','hide')"></div>
+	    <p onMouseOver="MM_showHideLayers('divb','','show')" ><img src="section2.gif" width="40" height="40" alt=""/>古香文城</p>
+ 	</div>
+		<div class="section2" id="div2">
+			<div id="divd" onClick="MM_goToURL('parent','chinese.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('divd','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divd','','show')"><img src="section2.gif" alt="" width="40" height="40"/>華人</p>
+			<div id="dive" onClick="MM_goToURL('parent','malay.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('divd','','hide');MM_showHideLayers('divf','','hide')" onMouseOut="MM_showHideLayers('dive','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('dive','','show')"><img src="section2.gif" alt="" width="40" height="40"/>馬來人</p>
+			<div id="divf" onClick="MM_goToURL('parent','indian.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('dive','','hide');MM_showHideLayers('divd','','hide')" onMouseOut="MM_showHideLayers('divf','','hide')"></div>
+        	<p onMouseOver="MM_showHideLayers('divf','','show')"><img src="section2.gif" alt="" width="40" height="40"/>印度人</p>
+ 	 	</div>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_showHideLayers('div1','','hide')" onMouseOver="MM_showHideLayers('div1','','show');MM_showHideLayers('div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>著名景點</span> <span class="section" onClick="MM_showHideLayers('div2','','hide')" onMouseOver="MM_showHideLayers('div2','','show');MM_showHideLayers('div1','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統美食</span>
+	  		</p>
+			<p style="font-family: sugar; font-size: 40px; text-align: right;">
+				<span class="section" onClick="MM_goToURL('parent','festival.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>傳統節日</span> <span class="section" onClick="MM_goToURL('parent','warning.html');return document.MM_returnValue" onMouseOver="MM_showHideLayers('div1','','hide','div2','','hide')"><img src="section icon.gif" width="40" height="40" alt=""/>注意事項</span>
+	  		</p>
+  </div>
+  <div id="content">
+   	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #212CF9; font-weight: bold;">
+		馬來西亞是由3大民族所組成的國家，分別是信奉伊斯蘭教的土著馬來人（60%），唐宋時期就來到這裏從商的華人（25%）和英屬時期被徵召過來從事勞力工作的印度人（10%），剩下的就是從外國移民到這裏或者到這裏來度假的外國人。俗話説，民以食爲天，馬來西亞人也不例外。在馬來西亞那麽多年的歷史下來，各民族已經研發出屬於自己民族的傳統美食，而來到馬來西亞的你又怎麽能錯過這些讓人垂涎三尺的美食呢？
+   	</p>
+    	<p><a href="民族.jpg"><img src="民族.jpg" width="613" height="283" alt=""/></a></p>
+		<hr>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #72A8FD; font-weight: bold;">
+		華人
+	</p>
+	<p class="p2" style="font-family: '微软雅黑'; font-size: 20px; color: #72f8fd; font-weight: normal;">
+		在馬來西亞居住的華人多數為佛教徒，也有一部分人為基督教徒，但這並不影響馬來西亞華人的美食傳播。在馬來西亞華人的食物普遍受到各族人民所喜愛。而華人的餐廳，茶餐室，路邊攤等更是遍佈全馬。
+	</p>
+		<hr>
+   		<p><a href="華人.jpg"><img src="華人.jpg" width="613" height="397" alt=""/></a></p>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		1. 海南鷄飯
+	</p>
+    	<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			在馬來西亞有著各式各樣的鷄飯，但其中最受歡迎的就是海南鷄飯。考究的海南雞飯，全雞以水煮至嫩熟，煮熟的雞切塊，排列於飯上，再灑上許多芝麻油與醬油；飯也是以雞湯和雞油一起蒸煮的，香嫩多汁的雞肉配上已用雞湯烹調過的米飯，所以特別香滑可口。再加上黑醬油或是特調的辣椒醬，口感真的一級棒！
+		</p>
+			<p>
+   				<a href="chicken1.jpg" target="_blank"><img src="chicken1.jpg" alt="" width="200" height="124" title="海南鷄飯"/></a><a href="chicken2.jpg" target="_blank"><img src="chicken2.jpg" alt="" width="200" height="132" title="港式海南鷄飯"/></a><a href="chicken3.jpg" target="_blank"><img src="chicken3.jpg" alt="" width="200" height="133" title="海南鷄飯"/></a>
+   			</p>
+    <p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		2. 炒果條
+	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			和臺灣的炒果條不一樣，馬來西亞的炒果條是是用黑甜油、豆芽、魚餅、雞蛋、蛤肉以及中式臘腸一起炒的寬扁粿條。另一種則是把平板米粉和切碎的大蒜攪拌后，加上明蝦，豆芽，蛋，再以醬油和辣椒醬來調味。炒果條最講究的是火候，火候必須掌控得非常好，才能炒出一盤色，香，味俱全的美食。
+	  	</p>
+	  		<p>	
+				<a href="kwayteow1.jpg" target="_blank"><img src="kwayteow1.jpg" alt="" width="200" height="133" title="炒果條"/></a><a href="kwayteow2.jpg" target="_blank"><img src="kwayteow2.jpg" alt="" width="200" height="113" title="泰式炒果條"/></a><a href="kwayteow3.jpg"><img src="kwayteow3.jpg" alt="" width="200" height="106" title="最爲出名的檳城炒果條"/></a>
+	  		</p>
+	<p class="p2" style="font-family: '仿宋'; font-size: 20px; color: #FCA01D; font-weight: bold;">
+		3. 肉骨茶
+	</p>
+		<p class="p" style="font-family: '微軟正黑體', '新細明體'; font-size: 20px; color: #00842C; font-weight: bold;">
+			肉骨茶端上桌，香氣撲面而來，誘人吃個痛快。只見瓦煲裏是熱氣騰騰、清香四溢的排骨與鮮湯，盤子裏有切成寸把長的油條，再加上香噴噴的白米飯。雖然做肉骨茶與茶葉基本不沾邊兒，但是吃肉骨茶的時候，一定要一邊吃肉骨一邊喝烏龍茶。夾一塊清香的肉骨入口，喝一口濃香甘醇的清湯，只覺得馨香入肺，美味無比。
+	  	</p>
+			<p>
+				<a href="bakuteh1.jpg" target="_blank"><img src="bakuteh1.jpg" alt="" width="200" height="150" title="肉骨茶"/></a><a href="bakuteh2.jpg" target="_blank"><img src="bakuteh2.jpg" alt="" width="150" height="149" tit	le="肉骨茶湯"/></a><a href="bakuteh3.jpg" target="_blank"><img src="bakuteh3.jpg" alt="" width="250" height="167" title="熬煮出來的肉骨茶"/></a>
+	  		</p>
+  </div>
+  
+  <div id="sidebar">
+    <p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">馬來西亞華僑兼美食家對海南鷄飯的評價↓</p>
+   	<video width="250" controls>
+      		<source src="chinese1.mp4" type="video/mp4">
+   	</video>
+	<p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">臺灣著名美食節目食尚玩家為馬來西亞炒果條錄製的精華篇↓</p>
+   	<video width="250" controls >
+      		<source src="chinese3.mp4" type="video/mp4">
+   	</video>
+    <p style="font-family: '仿宋'; font-size: 18px; color: #EF9241; font-weight: bold;">臺灣節目介紹馬來西亞肉骨茶↓</p>
+    	<video width="250" controls >
+      		<source src="chinese4.mp4" type="video/mp4">
+    	</video>
+	<p>&nbsp;</p>
+  </div>
+  
+  <div id="footer">我的聯絡方式：<a href="mailto:s18113272@stu.edu.tw">s18113272@stu.eddu.tw</a><a href="#top"><img src="top.png" alt="" width="30" height="29" class="img"/></a></div>
+</div>
+</body>
+</html>
